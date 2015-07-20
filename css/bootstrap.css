@@ -143,6 +143,10 @@ input::-moz-focus-inner {
 input {
   line-height: normal;
 }
+#head{
+  background-color: #3b5998;
+  margin-left: 0;
+}
 input[type="checkbox"],
 input[type="radio"] {
   -webkit-box-sizing: border-box;
@@ -1604,6 +1608,7 @@ pre code {
   }
 }
 .container-fluid {
+  background-position: 0px 0px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
