@@ -48,6 +48,7 @@ a {
 a:active,
 a:hover {
   outline: 0;
+  color: white;
 }
 abbr[title] {
   border-bottom: 1px dotted;
@@ -1120,8 +1121,8 @@ a {
 }
 a:hover,
 a:focus {
-  color: #23527c;
-  text-decoration: underline;
+  color: white;
+  
 }
 a:focus {
   outline: thin dotted;
