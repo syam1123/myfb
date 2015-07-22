@@ -11,3 +11,11 @@
   color: green;
   text-decoration: none;
   background-color: blue;
+}
+.whole{
+	background-color: yellow;
+	
+	margin-left: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0;
+}
