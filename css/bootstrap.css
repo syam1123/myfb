@@ -3140,7 +3140,7 @@ fieldset[disabled] .btn-default.active {
   background-color: #fff;
   border-color: #ccc;
 }
-.btn-default .{badge} {
+.btn-default .badge {
   color: #fff;
   background-color: #333;
 }
@@ -3473,7 +3473,6 @@ fieldset[disabled] .btn-danger.active {
 .btn-danger .badge {
   color: #d9534f;
   background-color: #fff;
-  vertical-align: text-top;
 }
 .btn-link {
   font-weight: normal;

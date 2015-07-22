@@ -6,3 +6,8 @@
 	margin-left: 50px;
 	text-align: right;
 }
+.dropdown-menu > li:hover,
+.dropdown-menu > li:focus {
+  color: green;
+  text-decoration: none;
+  background-color: blue;
