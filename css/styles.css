@@ -1,6 +1,14 @@
 .drop{
 	display: inline;
 }
+.dropnews{
+	display: inline;
+	text-align: right;
+	color: black;
+
+}
+.dropnews:hover{
+}
 .logo{
 	padding-left: 50px;
 	margin-left: 50px;
@@ -12,10 +20,50 @@
   text-decoration: none;
   background-color: blue;
 }
-.whole{
-	background-color: yellow;
-	
-	margin-left: 0px;
-	margin-bottom: 0px;
+.left{
+	margin-left: 6%;
+	margin-bottom: 0;
 	padding-bottom: 0;
+	font-size: 80%;
+	padding-top: 15px;
+	min-width: 10px;
+	max-width: 172px;
+	line-height: 2.5;
+
+}
+body{
+	background-color: rgba(0, 0, 0, .1);
+}
+.link{
+	color: black;
+}
+.bookmark,.bookmark:hover{
+	color: white;
+	border-radius: .5px;
+	font-size: 15px;
+	background-color: #3b5998;
+}
+.link:hover{
+ text-decoration: underline;
+}
+.whole{
+	background-color: rgba(0, 0, 0, .1);
+	height: 100%;
+	width: 100%;
+}
+.disabledletter{
+	color: rgba(0, 0, 0, .355);
+	text-decoration: shadow;
+	line-height: 2;
+	height: 10px;
+}
+.news{
+	color: black;
+}
+#nav1{
+	display: inline;
+	height:5px;
+	line-height: 2;
+	border-radius:2px;
+	margin: 0px 0px; 
 }
