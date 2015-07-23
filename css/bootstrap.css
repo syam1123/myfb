@@ -707,7 +707,7 @@ th {
 }
 .glyphicon-globe:before {
   content: "\e135";
-  background-color:#3b5998; 
+  
 }
 .glyphicon-wrench:before {
   content: "\e136";

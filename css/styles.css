@@ -31,11 +31,59 @@
 	line-height: 2.5;
 
 }
+.middle{
+	min-width: 50px;
+	max-width: 800px;
+}
+#config{
+	display: none;
+}
+.parent1:hover #config{
+	text-align: right;
+	display: inline-block;
+}
 body{
 	background-color: rgba(0, 0, 0, .1);
 }
 .link{
 	color: black;
+}
+.disabledgroup{
+	color: rgba(0, 0, 0, .355);
+	text-decoration: blink;
+	line-height: 2;
+	height: 10px;
+
+}
+
+#hover-content {
+    display:none;
+    width: 100%;
+    min-width: 10px;
+	max-width: 190px;
+	padding-left: 65px;
+}
+#parent:hover #hover-content {
+    display:inline;
+    text-align: right;
+    min-width: 10px;
+	max-width: 190px;
+
+}
+.hover-content1{
+	display: none;
+	
+}
+.parent:hover .hover-content1{
+	display: inline;
+	display: fixed;
+	text-decoration: blink;
+	letter-spacing: 10px;
+	margin-left: 20%;
+} 
+.disabledgroup:hover{
+	text-align: right;
+	
 }
 .bookmark,.bookmark:hover{
 	color: white;
@@ -43,11 +91,57 @@ body{
 	font-size: 15px;
 	background-color: #3b5998;
 }
+.groupicon{
+	color: white;
+	border-radius: 3px;
+	font-size: 13px;
+	background-color: #3b5998;
+}
+.groupicontree{
+	color: green;
+	border-radius: 3px;
+	font-size: 13px;
+	background-color: orange;
+	padding-left: 3px;
+}
+#tent{
+	background-color: #745252;
+	color: brown green;
+	padding-left: 3px;
+}
+#cloud{
+	background-color: pink;
+	color: #754328;
+	padding-left: 3px;
+}
+#plus{
+	padding-left: 3px;
+}
+#tower{
+	background-color: #542341;
+	color: white;
+	padding-left: 3px;
+}
+#hover{
+	display: inline-block;
+	line-height: 2;
+	margin: 0;
+}
+#hover:hover{
+	background-color: rgba(0, 0, 0, .2);
+	padding-left: 0;
+	border-radius: 3px;
+	width: 150px;
+	display: inline-block;
+}
 .link:hover{
  text-decoration: underline;
 }
+#f1{
+	font-size: 40;
+}
 .whole{
-	background-color: rgba(0, 0, 0, .1);
+	background-color: rgba(0, 0, 0, .085);
 	height: 100%;
 	width: 100%;
 }
@@ -66,4 +160,32 @@ body{
 	line-height: 2;
 	border-radius:2px;
 	margin: 0px 0px; 
+}
+.status{
+	background-color: white;
+	padding: 5px 5px;
+	margin-top: 10px;
+	border-style: none;
+	width: 100%;
+}
+.statuspost{
+	margin-left: 10px;
+	min-width: 100%;
+}
+.divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+.input1{
+	width: 90%;
+	height: 40	0%;
+}
+.btn_right{
+	text-align: right;
+}
+#public{
+	background-color: rgba(0, 0, 0, .06);
+	color: black;
 }
