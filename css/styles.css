@@ -48,6 +48,10 @@ body{
 .link{
 	color: black;
 }
+.link:hover{
+	color: black;
+	text-decoration: underline;
+}
 .disabledgroup{
 	color: rgba(0, 0, 0, .355);
 	text-decoration: blink;
@@ -188,4 +192,74 @@ body{
 #public{
 	background-color: rgba(0, 0, 0, .06);
 	color: black;
+}
+.post{
+	background-color: white;
+	margin-top: 10px;
+	padding: 10px 10px;
+}
+.pages{
+	background-color: white;
+	margin-top: 10px;
+	padding: 10px 10px;
+	font-size: 95%;
+}
+.chat{
+	background-color: white;
+	font-size: 100%;
+	
+}
+#time{
+	font-size: 80%;
+	color: rgba(0, 0, 0, .3);
+}
+#time:hover{
+	color: rgba(0, 0, 0, .5);
+}
+.link1:hover{
+	text-decoration: blink;
+	color: #3b5998;
+}
+.link1{
+	display: inline;
+
+}
+.col3{
+	position: relative;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+  width: 20%;
+  float: left;
+}
+.col4{
+	position: relative;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+  width: 19%;
+  float: left;
+}
+.list{
+	border-left: 1px solid #ddd;
+}
+
+.ticker{
+height:550px;
+overflow-y:scroll;
+width:100%;
+background-color: aliceblue;
+}
+.chatbadge .badge{
+	color: green;
+}
+.chatimg{
+	width: 30px;
+	height: 30px;
+}
+.right{
+	text-align: right;
+	font-style: bold;
+	color: rgba(0, 0, 0, .5);
+	font-size: 100%;
 }

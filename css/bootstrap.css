@@ -707,7 +707,6 @@ th {
 }
 .glyphicon-globe:before {
   content: "\e135";
-  
 }
 .glyphicon-wrench:before {
   content: "\e136";
@@ -5332,6 +5331,7 @@ a.thumbnail.active {
 .list-group {
   padding-left: 0;
   margin-bottom: 20px;
+  
 }
 .list-group-item {
   position: relative;
@@ -5339,7 +5339,7 @@ a.thumbnail.active {
   padding: 10px 15px;
   margin-bottom: -1px;
   background-color: #fff;
-  border: 1px solid #ddd;
+ 
 }
 .list-group-item:first-child {
   border-top-left-radius: 4px;
