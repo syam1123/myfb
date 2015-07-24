@@ -267,3 +267,34 @@ background-color: aliceblue;
 .id{
 	font-size: 75%;
 }
+#ok{
+	text-align: right;
+}
+#head{
+  background-color: #3b5998;
+  margin-left: 0;
+  padding-top: 5px;
+}
+#profile{
+  background-color: #3b5998;
+  margin-left: 0;
+  padding-top: 10px;
+  font-size: 16px;
+}
+.minimize{
+	float: left;
+}
+.btn-minim{
+  color: white;
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 10;
+}
+.btn-minim:hover,
+.btn-minim:focus,
+.btn-minim:active{
+	color:red;
+	font-size: 200%;
+	background-color: transparent;
+    border-color: transparent;
+}

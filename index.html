@@ -13,7 +13,7 @@
     <section class="topbar">
     <div class="container-fluid" height="50px" style="background-position: 0px 0px;">
         <div class="row">
-            <section id="head">
+            <div id="head">
                 <div class="row">
                 	<div class="col-xs-2 logo"> <a href=""><img src="images/logo3.png" height="50px"></a></div>
                     <div class="col-xs-6 col-md-4" id="head">
@@ -45,7 +45,7 @@
     							<a href=""> <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> </a>&nbsp;
     
   							</span>
-						    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+						    <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
 							   <li><a href="#">Action</a></li>
 							   <li><a href="#">Another action</a></li>
 							   <li><a href="#">Something else here</a></li>
@@ -57,8 +57,8 @@
     							<a href=""> <span class="glyphicon glyphicon-globe" aria-hidden="true"><span class="btn-danger badge">1</span></span> </a>&nbsp;
     
   							</span>
-						    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-							   <li><a href="#">Action</a></li>
+						    <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
+							   <li><a href="#"><img src="images/chat1.jpg" width="10%">Manu Changed Profile pic<img src="images/chat1.jpg" width="10%"></a></li>
 							   <li><a href="#">Another action</a></li>
 							   <li><a href="#">Something else here</a></li>
 							   <li><a href="#">Separated link</a></li>
@@ -72,7 +72,7 @@
     							<a href=""> <span class="glyphicon glyphicon-lock" aria-hidden="true"></span> </a>&nbsp;
     
   							</span>
-						    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+						    <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
 							   <li><a href="#">Action</a></li>
 							   <li><a href="#">Another action</a></li>
 							   <li><a href="#">Something else here</a></li>
@@ -84,7 +84,7 @@
     							<a href=""> <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span> </a>&nbsp;
     
   							</span>
-						    <ul class="dropdown-menu hover" aria-labelledby="dropdownMenu1">
+						    <ul class="dropdown-menu hover dropdown-menu-right" aria-labelledby="dropdownMenu1">
 							   <li><a href="#">Create Group</a></li>
 							   <li><a href="#">New Groups</a></li>
 							   <li role="separator" class="divider"></li>
@@ -105,12 +105,24 @@
 							</ul>
 						</div>
                     </div>
-                    <div class="col-xs-1 visible-xs dropdown">
-                    <button><span class="glyphicon glyphicon-menu-hamburger"></span></button>
-                    	
+                    
+                    <div style="float: left; position: absolute;" class="col-xs-1 visible-xs dropdown minimize open">
+                    
+						   
+						      <button class="btn btn-minim dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						       <span class="glyphicon glyphicon-menu-hamburger"></span>
+						    
+						  </button>
+						  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+						    <li><a href="#">Chat</a></li>
+						    <li><a href="#">Profile</a></li>
+						    <li><a href="#">Messages</a></li>
+						    <li><a href="#">pages</a></li>
+						  </ul>
+					
                     </div>
            		</div>
-        	</section>
+        	</div>
         </div>
     </div>
     </section>
@@ -215,12 +227,14 @@
 
  						<span class="btn-group btn_right" role="group">
    							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    						 <span class="glyphicon glyphicon-globe public" id="public" aria-hidden="true"></span>&nbsp;Public
+    						 <span class="glyphicon glyphicon-globe public" id="public" aria-hidden="true"></span>&nbsp; Public
       						<span class="caret"></span>
    							</button>
    							<ul class="dropdown-menu">
-     							<li><a href="#">Dropdown link</a></li>
-    							<li><a href="#">Dropdown link</a></li>
+
+     							<li><a href="#"><span class="glyphicon glyphicon-globe public" id="public" aria-hidden="true"></span> Public</a></li>
+    							<li><a href="#"><span class="glyphicon glyphicon-grain public" id="public" aria-hidden="true"></span> Friends</a></li>
+    							<li><a href="#"><span class="glyphicon glyphicon-user public" id="public" aria-hidden="true"></span> Only Me</a></li>
     						</ul>
   							</span></span>
   							<span class="btn-group btn_right" role="group" aria-label="...">
@@ -387,6 +401,7 @@
  					 <a href="#" class="list-group-item"><img src="images/chat1.jpg" class="chatimg">Vestibulum at eros</a>
  					 <a href="#" class="list-group-item"><img src="images/chat2.jpg" class="chatimg">Dapibus ac facilisis in</a>
  					 <a href="#" class="list-group-item"><img src="images/chat1.jpg" class="chatimg">Morbi leo risus</a>
+
  					 <a href="#" class="list-group-item"><img src="images/chat.jpg" class="chatimg">Porta ac consectetur ac</a>
  					 <a href="#" class="list-group-item"><img src="images/chat1.jpg" class="chatimg">Vestibulum at eros</a>
  					 <a href="#" class="list-group-item"><img src="images/chat2.jpg" class="chatimg">Dapibus ac facilisis in</a>
