@@ -10,12 +10,13 @@
 </head>
 <body>
     <section class="whole">
+    <section class="topbar">
     <div class="container-fluid" height="50px" style="background-position: 0px 0px;">
         <div class="row">
             <section id="head">
                 <div class="row">
-                	<div class="col-xs-1 logo"> <a href=""><img src="images/logo3.png" height="50px"></a></div>
-                    <div class="col-xs-2 col-md-4" id="head">
+                	<div class="col-xs-2 logo"> <a href=""><img src="images/logo3.png" height="50px"></a></div>
+                    <div class="col-xs-6 col-md-4" id="head">
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="Search on Facebook">
                             <span class="input-group-btn">
@@ -23,8 +24,8 @@
                             </span>
             			</div>
             		</div>
-            		<div class="col-xs-1 col-md-1"></div>
-            		<div class="col-xs-6 col-md-4 dropdown" id="profile">
+            		<div class="hidden-xs col-md-1"></div>
+            		<div class="hidden-xs col-md-4 dropdown" id="profile">
             			<span><a class="" href="#" role="button"><img src="images/syam.jpg" height="30px" width="30px">&nbsp;<font color="white" size="2">Syam</font></a></span>&nbsp;<!--<span class="glyphicon glyphicon-option-vertical" aria-hidden="true"></span>--> |
             			<span><a class="" href="#" role="button"><font color="white" size="2">Home</font></a></span>&nbsp;&nbsp;&nbsp;
             		   <div class="dropdown drop">
@@ -104,13 +105,19 @@
 							</ul>
 						</div>
                     </div>
+                    <div class="col-xs-1 visible-xs dropdown">
+                    <button><span class="glyphicon glyphicon-menu-hamburger"></span></button>
+                    	
+                    </div>
            		</div>
         	</section>
         </div>
     </div>
+    </section>
     <div class="row">
     	<!--<div class="col-xs-1 leftmost"></div>-->
-    	<div class="col-xs-2 left">
+    	<section class="sidebar">
+    	<div class="col-xs-2 hidden-xs left">
     	
     	  	<img src="images/syam.jpg" height="20px" width="20px">&nbsp;<a href=""><span class="link">Syam Sadasivan pillai</span></a>
     	 	<img src="images/edit.png" height="20px" width="20px">&nbsp;<a href=""><span class="link">Edit Profile</span></a>
@@ -179,19 +186,21 @@
 
 			</div>
     	</div>
-    	<div class="col-md-5 col-xs-4 middle">
+    	</section>
+    	<section class="middleposts">
+    	<div class="col-md-5 col-xs-12 middle">
     		<section class="status">
-    			<div class="statuspost parent">
-    				<ul class="nav nav-tabs nav-justified">
+    			<div class="statuspost parent" width="100%">
+    				<ul class="nav nav-tabs nav-justified visible-md visible-lg">
  						<li role="presentation" class="active">&nbsp;<img src="images/pencil.png" height="15px">&nbsp;Update Status</a></li>
   						<li role="presentation"><a href="#">&nbsp;<img src="images/camera.jpeg" height="18px">&nbsp;Add Photos/Video</a></li>
- 						<li role="presentation"><a href="#">&nbsp;<img src="images/album.png" height="18px">&nbsp;Create album</a></li>
+ 						<li role="presentation"><a href="#">&nbsp;<img src="images/album.png" height="18px" >&nbsp;Create album</a></li>
 					</ul>
 			
 					<img src="images/syam.jpg" height="30px"><input type="text" class="status input1" placeholder="Whats on your mind?"></input><br><br>
 					<ul><li role="separator" class="divider"></li></ul>
 					<div class="row">
-					<div class="col-md-7">
+					<div class="col-md-7 col-xs-7">
 							<div class="hover-content1">
 								<a href=""><span class="glyphicon glyphicon-camera" aria-hidden="true"></span></a>
 								<a href=""><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
@@ -235,19 +244,19 @@
 						<a href=""id="time"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
 					</div>
 				</div>
-				<img src="images/chali1.jpg"><br><br>
+				<img src="images/chali1.jpg" width="100%"><br><br>
 				<ul><li role="separator" class="divider"></li></ul>
 
 				<div class="row">
-					<div class="col-md-1"></div>
-					<div class="col-md-2">
+					<div class="col-md-1 "></div>
+					<div class="col-md-2 col-xs-3">
 						<a href="" class="link1"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>&nbsp;Like</a>
 					</div>
 					
-					<div class="col-md-3">
+					<div class="col-md-3 col-xs-4">
 						<a href="" class="link1"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>&nbsp;Comment</a>
 					</div>
-					<div class="col-md-2">
+					<div class="col-md-2 col-xs-4">
 						<a href="" class="link1"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>&nbsp;Share</a>
 					</div>
 				</div>
@@ -267,19 +276,19 @@
 						<a href=""id="time"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
 					</div>
 				</div>
-				<img src="images/chali2.jpg"><br><br>
+				<img src="images/chali2.jpg" width="100%"><br><br>
 				<ul><li role="separator" class="divider"></li></ul>
 
 				<div class="row">
 					<div class="col-md-1"></div>
-					<div class="col-md-2">
+					<div class="col-md-2 col-xs-3">
 						<a href="" class="link1"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>&nbsp;Like</a>
 					</div>
 					
-					<div class="col-md-3">
+					<div class="col-md-3 col-xs-4">
 						<a href="" class="link1"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>&nbsp;Comment</a>
 					</div>
-					<div class="col-md-2">
+					<div class="col-md-2 col-xs-4">
 						<a href="" class="link1"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>&nbsp;Share</a>
 					</div>
 				</div>
@@ -299,19 +308,19 @@
 						<a href=""id="time"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
 					</div>
 				</div>
-				<img src="images/chali4.jpg"><br><br>
+				<img src="images/chali4.jpg" width="100%"><br><br>
 				<ul><li role="separator" class="divider"></li></ul>
 
 				<div class="row">
 					<div class="col-md-1"></div>
-					<div class="col-md-2">
+					<div class="col-md-2 col-xs-3">
 						<a href="" class="link1"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>&nbsp;Like</a>
 					</div>
 					
-					<div class="col-md-3">
+					<div class="col-md-3 col-xs-4">
 						<a href="" class="link1"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>&nbsp;Comment</a>
 					</div>
-					<div class="col-md-2">
+					<div class="col-md-2 col-xs-4">
 						<a href="" class="link1"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>&nbsp;Share</a>
 					</div>
 				</div>
@@ -319,18 +328,50 @@
 
 
     	</div>
-    	<div class="col3">
+    	</section>
+    	<section class="advertise">
+    	<div class="col3 hidden-xs">
     		<div class="pages">
     			<span class="glyphicon glyphicon-gift" aria-hidden="true">&nbsp<a href="" class="link1">Manu</a> have birthday today</span>
   				<ul><li role="separator" class="divider"></li></ul>
+  				<span class="disabledgroup"><b>SUGGESTED GROUPS</b></span>
+  				<div class="row">
+  				<div class="col-md-4">
+  				
+    			<img src="images/img1.jpg" width="28px" height="28px">
+    			<img src="images/img2.jpeg" width="28px" height="28px">
+    			<img src="images/img3.jpeg" width="28px" height="28px">
+    			<img src="images/img4.jpg" width="28px" height="28px">
+    			</div>
+    			<a href="" class="link1"><b>Qburst15</b></a>
+    			<p><button>+Join</button></p>
+    			</div><br>
+    			<div class="row">
+  				<div class="col-md-4">
+  				
+    			<img src="images/chat1.jpg" width="28px" height="28px">
+    			<img src="images/chat2.jpg" width="28px" height="28px">
+    			<img src="images/chat.jpg" width="28px" height="28px">
+    			<img src="images/img4.jpg" width="28px" height="28px">
+    			</div>
+    			<a href="" class="link1"><b>Trivandrum guys</b></a>
+    			<p><button>+Join</button></p>
+    			</div>
+    			<ul><li role="separator" class="divider"></li></ul>
     			<span class="disabledgroup"><b>SUGGESTED PAGES</b></span>
     			<img src="images/img1.jpg" width="110px" height="110px">
     			<img src="images/img2.jpeg" width="110px" height="110px">
     			<img src="images/img3.jpeg" width="110px" height="110px">
     			<img src="images/img4.jpg" width="110px" height="110px">
     		</div>
+    		<span class="disabledgroup fb">English (US)&middot;  Privacy &middot; Terms &middot; Cookies &middot; Advertising &middot; Ad Choices &middot;
+			More<br>
+			Facebook &copy; 2015</span>
+    		
     	</div>
-    	<div class="col4">
+    	</section>
+    	<section class="chatlist">
+    	<div class="col4 hidden-xs">
     		<div class="chat">
     			<div class="list-group list ticker">
  					<a href="#" class="list-group-item " ><img src="images/chat.jpg" class="chatimg">
@@ -359,6 +400,7 @@
 				</div>
     		</div>
 		</div>
+		</section>
     </div>
    </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

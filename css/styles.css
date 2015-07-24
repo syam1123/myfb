@@ -145,7 +145,7 @@ body{
 	font-size: 40;
 }
 .whole{
-	background-color: rgba(0, 0, 0, .085);
+	background-color: rgba(0, 0, 0, .08);
 	height: 100%;
 	width: 100%;
 }
@@ -249,6 +249,7 @@ height:550px;
 overflow-y:scroll;
 width:100%;
 background-color: aliceblue;
+
 }
 .chatbadge .badge{
 	color: green;
@@ -262,4 +263,7 @@ background-color: aliceblue;
 	font-style: bold;
 	color: rgba(0, 0, 0, .5);
 	font-size: 100%;
+}
+.id{
+	font-size: 75%;
 }
