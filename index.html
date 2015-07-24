@@ -11,12 +11,13 @@
 <body>
     <section class="whole">
     <section class="topbar">
+    <!--Top bar of the website-->
     <div class="container-fluid" height="50px" style="background-position: 0px 0px;">
         <div class="row">
             <div id="head">
                 <div class="row">
-                	<div class="col-xs-2 logo"> <a href=""><img src="images/logo3.png" height="50px"></a></div>
-                    <div class="col-xs-6 col-md-4" id="head">
+                	<div class="col-xs-2 col-sm-2 logo"> <a href=""><img src="images/logo3.png" height="50px"></a></div>
+                    <div class="col-xs-6 col-md-4 col-sm-4" id="head">
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="Search on Facebook">
                             <span class="input-group-btn">
@@ -25,6 +26,7 @@
             			</div>
             		</div>
             		<div class="hidden-xs col-md-1"></div>
+            		<!-- this division will be hidden on mobile view-->
             		<div class="hidden-xs col-md-4 dropdown" id="profile">
             			<span><a class="" href="#" role="button"><img src="images/syam.jpg" height="30px" width="30px">&nbsp;<font color="white" size="2">Syam</font></a></span>&nbsp;<!--<span class="glyphicon glyphicon-option-vertical" aria-hidden="true"></span>--> |
             			<span><a class="" href="#" role="button"><font color="white" size="2">Home</font></a></span>&nbsp;&nbsp;&nbsp;
@@ -106,7 +108,7 @@
 						</div>
                     </div>
                     
-                    <div style="float: left; position: absolute;" class="col-xs-1 visible-xs dropdown minimize open">
+                    <div style="float: left; position: absolute;" class="col-xs-1 visible-xs visible-sm dropdown minimize open">
                     
 						   
 						      <button class="btn btn-minim dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
@@ -129,8 +131,9 @@
     <div class="row">
     	<!--<div class="col-xs-1 leftmost"></div>-->
     	<section class="sidebar">
-    	<div class="col-xs-2 hidden-xs left">
-    	
+    	<!--Sidebar of the website-->
+    	<div class="col-xs-2 hidden-xs hidden-sm left">
+    	  <!--hidden on mobile view-->
     	  	<img src="images/syam.jpg" height="20px" width="20px">&nbsp;<a href=""><span class="link">Syam Sadasivan pillai</span></a>
     	 	<img src="images/edit.png" height="20px" width="20px">&nbsp;<a href=""><span class="link">Edit Profile</span></a>
     	 	<p class="disabledletter"><b>FAVORITES</b></p>
@@ -153,6 +156,9 @@
  				<span class="disabledgroup"><b>GROUPS</b></span>
     				<div id="hover-content">
         				<a href="">More</a>
+
+        				<!--'More' will appear on hover to division parent-->
+   					 
    					 </div>
    					 <br>
    				<!--<span id="hover-content"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span></span>-->
@@ -202,8 +208,11 @@
     	<section class="middleposts">
     	<div class="col-md-5 col-xs-12 middle">
     		<section class="status">
+
+    		<!--Middle portions of the website-->
+
     			<div class="statuspost parent" width="100%">
-    				<ul class="nav nav-tabs nav-justified visible-md visible-lg">
+    				<ul class="nav nav-tabs nav-justified visible-md visible-sm visible-lg">
  						<li role="presentation" class="active">&nbsp;<img src="images/pencil.png" height="15px">&nbsp;Update Status</a></li>
   						<li role="presentation"><a href="#">&nbsp;<img src="images/camera.jpeg" height="18px">&nbsp;Add Photos/Video</a></li>
  						<li role="presentation"><a href="#">&nbsp;<img src="images/album.png" height="18px" >&nbsp;Create album</a></li>
@@ -343,8 +352,11 @@
 
     	</div>
     	</section>
+
+    	<!--Advertisement section-->
+
     	<section class="advertise">
-    	<div class="col3 hidden-xs">
+    	<div class="col3 hidden-xs hidden-sm">
     		<div class="pages">
     			<span class="glyphicon glyphicon-gift" aria-hidden="true">&nbsp<a href="" class="link1">Manu</a> have birthday today</span>
   				<ul><li role="separator" class="divider"></li></ul>
@@ -384,8 +396,11 @@
     		
     	</div>
     	</section>
+
+    	<!--Chatlist-->
+
     	<section class="chatlist">
-    	<div class="col4 hidden-xs">
+    	<div class="col4 hidden-xs hidden-sm">
     		<div class="chat">
     			<div class="list-group list ticker">
  					<a href="#" class="list-group-item " ><img src="images/chat.jpg" class="chatimg">
